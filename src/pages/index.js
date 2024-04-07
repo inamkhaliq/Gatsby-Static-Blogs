@@ -1,5 +1,13 @@
 import * as React from "react"
+import Layout from "../components/layout"
+import Banner from "../Components/Banner/Banner"
 
 export default function Home() {
-  return <div>Hello world!</div>
+  return (
+    <>
+      <Layout>
+        <Banner></Banner>
+      </Layout>
+    </>
+  )
 }
